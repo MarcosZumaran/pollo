@@ -41,6 +41,18 @@ public class CorralModel {
         this.pollos = pollos;
     }
 
+    public CorralModel(int id, String nombre, String ubicacion) {
+        this.id = id;
+        this.nombre = nombre;
+        this.ubicacion = ubicacion;
+    }
+
+    public CorralModel(String nombre, String ubicacion) {
+        this.nombre = nombre;
+        this.ubicacion = ubicacion;
+    }
+
+
     
 
 }

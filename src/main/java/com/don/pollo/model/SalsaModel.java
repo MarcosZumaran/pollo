@@ -41,6 +41,17 @@ public class SalsaModel {
         this.pollos = pollos;
     }
 
+    public SalsaModel(int id, String nombre, int nivel_picante) {
+        this.id = id;
+        this.nombre = nombre;
+        this.nivel_picante = nivel_picante;
+    }
+
+    public SalsaModel(String nombre, int nivel_picante) {
+        this.nombre = nombre;
+        this.nivel_picante = nivel_picante;
+    }
+
     
 
 }

@@ -44,6 +44,17 @@ public class PolloModel {
         this.salsa = salsa;
     }
 
+    public PolloModel(int id, String nombre, boolean picante) {
+        this.id = id;
+        this.nombre = nombre;
+        this.picante = picante;
+    }
+
+    public PolloModel(String nombre, boolean picante) {
+        this.nombre = nombre;
+        this.picante = picante;
+    }
+ 
     
 
 }
