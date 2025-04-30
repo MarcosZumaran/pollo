@@ -54,7 +54,6 @@ public class PolloModel {
         this.nombre = nombre;
         this.picante = picante;
     }
- 
     
 
 }
